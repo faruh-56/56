@@ -143,3 +143,12 @@ span {
     display: inline;
 }
 
+@media ((min-width: 320px) and (max-width: 500px)) {
+    .courseprice, .forma {
+        background-color: rgb(16, 190, 221);
+        width: 200px;
+        margin: 30px auto;
+        padding: 10px;
+
+    }
+}
