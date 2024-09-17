@@ -125,3 +125,5 @@ function UZStoUSD() {
     let result = +UZSinput.value / currancy
     USDinput.value = result
 }
+
+
