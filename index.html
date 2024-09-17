@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя первая страница</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="fio">Валиев</h1>
+    <h2 class="fio">Фаррух</h2>
+    <h3 class="fio">Иброхимжон угли</h3>
+
+    <img id="myPhoto" src="./images.jpg" alt="Ihtr">
+
+<p class="gachi">Это я на фотке, 100%.</p>
+
+    <p class="gachi">Avg CS enjoyer</p>
+    <p class="gachi">Анимешник</p>
+    <p class="gachi">Пару цитат от великих людей:</p>
+    <span>"Лучше посрать и опоздать, чем придти вовремя и обосраться." (с) Jason Statham. "Деньги нужно тратить на впечатления, а  не на вещи! Поэтому я купил впечатляющее количество пива." (c) Мадс Миккельсен.
+        
+    </span>
+    <div>
+    <a href="https://t.me/sati_W">Telegram</a>
+    <a href="https://www.instagram.com/_fara_v/">Instagram</a>
+    <a href="https://steamcommunity.com/id/shadowshrek/">Steam</a>
+    </div>
+
+    <h2>Мои увлечения</h2>
+    <ul class="list">
+        <li>CS2</li>
+        <li>Футбол</li>
+        <li>Покушать</li>
+        <li>Аниме</li>
+    </ul>
+
+    <h2>Мои топ-5 аниме</h2>
+    <ol>
+        <li>Ван Пис</li>
+        <li>Берсерк</li>
+        <li>Драконий Жемчуг</li>
+        <li>Наруто</li>
+        <li>Необъятный океан</li>
+    </ol>
+
+    <img id="goat" src="./photo_2024-01-15_10-59-21.jpg" alt="eto ya">
+<p class="gachi">Ладно это я.</p>
+
+    <form action="#">
+        <label>
+            Ваше имя
+            <input type="text" name="userName" placeholder="Имя">
+        </label>
+        <label>
+            Ваш возраст
+            <input type="number" name="userAge">
+        </label>
+        <label>
+            <input type="checkbox" name="checklesson" required>
+            Вы придете сегодня на лекцию?
+        </label>
+        <h3>Ваш пол</h3>
+        <label>
+            <input type="radio" name="gender" value="male">
+            М
+        </label>
+        <label>
+            <input type="radio" name="gender" value="female">
+            Ж
+        </label>
+        <input type="resset" value="Очистить">
+        <input type="submit"> 
+
+    </form>
+    <h2>Калькулятор:</h2>
+    <label>
+        Первое число:
+        <input type="number" name="x" value="10">
+    </label>
+    <label>
+        Второе число:
+        <input type="number" name="y" value="20">
+    </label>
+    <button onclick="calc()">+</button>
+    <button onclick="calc()">-</button>
+    <button onclick="calc()">*</button>
+    <button onclick="calc()">/</button>
+    <div id="result">Результат:</div>
+
+    <div class="forma">
+         <h2 id="forma">Оставить заявку</h2>
+         <label class="form">
+         Имя:
+            <input type="text" name="user">
+        </label>
+        <label class="form">
+            Страна: 
+            <select id="countrySelect" onchange="updatephoneNumber()">
+                <option value="none">Выберите страну</option>
+                <option value="uz">Узбекистан</option>
+                <option value="ru">Россия</option>
+                <option value="us">Америка</option>
+                <option value="fr">Франция</option>
+            </select>
+        </label>
+        <label class="form">
+            Телефон:
+            <input type="tel" id="phoneNumber" name="phoneNumber">
+        </label>
+        <label>
+            <input id ="checked" type="checkbox">
+            Подтвердить обработку данных
+        </label>
+        <button id="btn" disabled>Отправить</button>
+
+    </div>
+
+    <div class="courseprice">
+        <h2>Калькулятор стоимости обучения</h2>
+        <label>
+            Курс:
+            <select id="courseSelect">
+                <option value="front">Frontend</option>
+                <option value="py">Python</option>
+                <option value="DA">Data Analytics</option>
+            </select>
+        </label>
+        <label>
+            Скидка:
+            <input type="range" min="0" max="50" step="5" value="0" id="rangeValue">
+            <span id="rangeSale"> 0% </span>
+        </label>
+        <label>
+            Сумма:
+            <input type="text" id="coursePrice" readonly>
+        </label>
+    </div>
+    
+    <h2>Конвертер валют</h2>
+    <label>
+        <input type="number" name="USD" placeholder="1">
+    </label>
+    <select name="currancy">
+        <option value="12700">USD</option>
+        <option value="150">RUB</option>
+        <option value="14000">EUR</option>
+    </select>
+    <label>
+        <input type="number" name="UZS" placeholder="12700">
+    </label>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>

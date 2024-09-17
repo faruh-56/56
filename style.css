@@ -1,0 +1,145 @@
+* {
+    margin: 0.5;
+}
+
+body {
+    background-color:floralwhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.gachi {
+    font-size: 25px;
+}
+
+.fio {
+    color: blue;
+    text-align: center;
+}
+
+#myPhoto {
+    width: 300px;
+    border: 5px solid blue;
+    border-radius: 20px;
+    padding: 10px 20px 20px 30px;
+    margin: 20px auto;
+
+    display: block;
+}
+
+.gachi {
+    color:red;
+}
+
+#goat {
+    width: 100px;
+}
+
+span {
+    color: grey;
+    font-size: larger;
+}
+
+label,input {
+    display: block;
+}
+form{
+    margin-bottom: 100px;
+}
+input[type="checkbox"],input[type="radio"]{
+    display: inline;
+
+}
+body{
+    margin-bottom: 300px;
+}
+
+.list li {
+    color: green;
+    font-size: 20px;
+    transition: 200ms;
+}
+
+.list li:nth-child(3n+1){
+    color: rebeccapurple;
+}
+
+.list li:first-child {
+    color: red;
+}
+
+.list li:last-child {
+    color: blue;
+
+}
+
+.list li:hover {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.list li::after {
+    content: ";";
+}
+
+.list li:last-child::after {
+    content: ".";
+}
+
+.list li::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-image: url("./like.jpg");
+    background-image: contain;
+}
+
+.list {
+    list-style-type: none;
+}
+
+
+.forma {
+    background-color: rgb(62, 220, 248);
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+select, input[type="text"],[type="tel"] {
+    display: inline;
+    margin-bottom: 10px;
+}
+
+.form {
+    font-weight: bold;
+}
+
+#forma, .courseprice {
+    color: rgb(3, 3, 104);
+    font-weight: bolder;
+}
+
+.courseprice {
+    background-color: rgb(62, 220, 248);
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+}
+span {
+    color: black;
+}
+
+
+
+#currency {
+    background-color: rgb(243, 247, 248);
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.valueInput, .currencySelector {
+    display: inline;
+}
+
